@@ -25,13 +25,14 @@ server2 <- function(input, output) {
       paste("Project Description")
     }
     else if (input$var=="Indian Hill Cemetery"){
-      paste("As this project is still a work in progress, we are open to collaboration and support to help us compile a complete history. If you have any thoughts or would like to contribute, please email abolitionistus@gmail.com.")
+      paste("different description")
     }
     else if (input$var=="Beman Triangle"){
       paste("As this project is still a work in progress, we are open to collaboration and support to help us compile a complete history. If you have any thoughts or would like to contribute, please email abolitionistus@gmail.com.")
     }
     else if (input$var=="High Rise/Traverse Square"){
-      paste("As this project is still a work in progress, we are open to collaboration and support to help us compile a complete history. If you have any thoughts or would like to contribute, please email abolitionistus@gmail.com.")
+      paste("High Rise and Low Rise apartments were originally built as the William St. Apartments in conjunction with the recently built Traverse Square subsidized housing community with a $1.6 million subsidy from HUD. The project was meant to breach the divide between Wesleyan University and Middletown. Over the years, tensions have flared at different times between the communities. For a more detailed history and analysis of the relationship between High/Low and Traverse Square, read the article “High/Low and Traverse Square” below.
+")
     }
     else if (input$var== "University Organizing Center"){
       paste("As this project is still a work in progress, we are open to collaboration and support to help us compile a complete history. If you have any thoughts or would like to contribute, please email abolitionistus@gmail.com.")
@@ -88,7 +89,8 @@ server2 <- function(input, output) {
       paste("As this project is still a work in progress, we are open to collaboration and support to help us compile a complete history. If you have any thoughts or would like to contribute, please email abolitionistus@gmail.com.")
     }
     else if (input$var==   "Green Street/North End Action Team"){
-      paste("As this project is still a work in progress, we are open to collaboration and support to help us compile a complete history. If you have any thoughts or would like to contribute, please email abolitionistus@gmail.com.")
+      paste("The Green Street Art Center was a community center that was a product of North End Action Team organizing and funding from Wesleyan University. The center opened in 2005 and closed in 2017. For more information, read the article “The North End and Green Street Art Center” below. 
+")
     }
     else {
       paste("")
@@ -99,13 +101,8 @@ server2 <- function(input, output) {
   })
 }
 
-shinyApp(ui2, server2)
+#shinyApp(ui2, server2)
 
 
 
-# set up live link
-library(rsconnect)
-rsconnect::setAccountInfo(name='abolitionistusfinal',
-                          token='B6F0B2BE95889FD797C784879FE3A76B',
-                          secret='g509kBMO1UTvQ0ZmiWWJkys5II582IXZBT1DeqDm')
-deployApp()
+

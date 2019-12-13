@@ -45,9 +45,9 @@ wes_data <- data.frame("Place" = c("[Select location]",
                                    .7, .7, .7, .7, .7, .7, .7, .7, .7, .7, .7))
 
 
-library(RCurl)
-urlfile<-'https://github.com/ecleff/wes-map/blob/master/wes_data.csv'
-wes_data<-read.csv("wes_data.csv")
+#library(RCurl)
+#urlfile<-'https://github.com/ecleff/wes-map/blob/master/wes_data.csv'
+#wes_data<-read.csv("wes_data.csv")
 
 
 
