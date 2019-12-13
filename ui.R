@@ -10,6 +10,8 @@ ui2 <- fluidPage(
         selectInput("var", 
                     label = "Select a location from the drop-down menu to learn about its history and relationship to Wesleyan:",
                     choices = c("[Select location]",
+                                "Exley Science Center",
+                                "Power Plant",
                                 "Long Lane Farm", 
                                 "Indian Hill Cemetery",
                                 "Beman Triangle", 

@@ -22,10 +22,19 @@ server2 <- function(input, output) {
       paste("As this project is still a work in progress, we are open to collaboration and support to help us compile a complete history. If you have any thoughts or would like to contribute, please email abolitionistus@gmail.com.")
     } 
     else if (input$var=="[Select location]"){
-      paste("Project Description")
+      paste("This map is part of a project that seeks to consolidate a history of properties and expansion at Wesleyan University. This project includes this map, as well as the Google Doc linked below containing articles about different properties or areas of expansion.
+Abolitionist work is convoluted and challenging, but it must begin somewhere. Having a strong grasp of the histories of the university allows for active disruption of the institution's continuing functions.  
+")
+    }
+    else if (input$var=="Exley Science Center"){
+      paste("Construction of the Exley Science Center began in 1965 with an expected cost of $9 million. By its completion in 1971, the final cost was $18 million. Construction of the center was delayed due to a state-wide iron workers strike in 1969.  The construction of the center was part of a $38 million expansion effort in the late 1960s and early 1970s. For more information, read the article “Expansion in the 1960s and 1970s.”
+")
+    }
+    else if (input$var=="Power Plant"){
+      paste("The power plant was built in 1973 at a cost of $4.2 million. The plant was built as a part of, and because of, a $38 million expansion effort in the late 1960s and early 1970s. Because of the rapid growth of the campus, a new central plant was needed to power the University. For more information, read the article “Expansion in the 1960s and 1970s.")
     }
     else if (input$var=="Indian Hill Cemetery"){
-      paste("different description")
+      paste("As this project is still a work in progress, we are open to collaboration and support to help us compile a complete history. If you have any thoughts or would like to contribute, please email abolitionistus@gmail.com.")
     }
     else if (input$var=="Beman Triangle"){
       paste("As this project is still a work in progress, we are open to collaboration and support to help us compile a complete history. If you have any thoughts or would like to contribute, please email abolitionistus@gmail.com.")
@@ -38,7 +47,8 @@ server2 <- function(input, output) {
       paste("As this project is still a work in progress, we are open to collaboration and support to help us compile a complete history. If you have any thoughts or would like to contribute, please email abolitionistus@gmail.com.")
     }
     else if (input$var==  "The CFA"){
-      paste("As this project is still a work in progress, we are open to collaboration and support to help us compile a complete history. If you have any thoughts or would like to contribute, please email abolitionistus@gmail.com.")
+      paste("The Center For the Arts is an 11 building complex that houses the Studio Art, Music and Theater departments. The center was designed by architect Kevin Roche. Construction of the center began in 1970 and concluded in 1973. The first plan for the center, drafted in 1966, included 16 buildings, but buildings were removed from the plan over time due to shortages in the budget. The first cost estimate for the CFA was $5 million, but the University spent $13 million by the end of construction. The construction of the center was part of a $38 million expansion effort in the late 1960s and early 1970s. For more information, read the article “Expansion in the 1960s and 1970s.”
+")
     }
     else if (input$var==  "Cheshire Correctional Facility"){
       paste("A maximum-security men’s prison in Connecticut and the first facility at which Center for Prison Education started teaching classes in 2009. The first cohort of students was nineteen men, and the program has admitted 72 men since.")
